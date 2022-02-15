@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Admin</string>
+    <string name="create_student_account">Create account</string>
+    <string name="student_email">Email</string>
+    <string name="student_password">Password</string>
+    <string name="student_name">Name</string>
+    <string name="student_id">ID</string>
+    <string name="student_major">major</string>
+    <string name="register_now">Register now</string>
+    <string name="admin_login">Admin Login</string>
+    <string name="enter_your_email">Enter your Email</string>
+    <string name="enter_your_password">Enter your Password</string>
+    <string name="login">Login</string>
+    <string name="forgetten_password">Forgetten Password ?</string>
+    <string name="admin_page">Admin Page</string>
+    <string name="add_notice">add notice</string>
+    <string name="delete_notice">delete notice</string>
+    <string name="add_student">add student</string>
+    <string name="add_pdf">add PDF</string>
+    <string name="pdf_title">Pdf title</string>
+    <string name="upload_pdf">Upload Pdf</string>
+    <string name="notice_title">Notice title</string>
+    <string name="upload_notice">Upload notice</string>
+</resources>

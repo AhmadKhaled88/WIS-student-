@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">الأدمن</string>
+    <string name="create_student_account">إنشاء حساب</string>
+    <string name="student_email">البريد الإلكتروني</string>
+    <string name="student_password">ألرقم السري</string>
+    <string name="student_name">الإسم</string>
+    <string name="student_id">الرقم التعريفي</string>
+    <string name="student_major">التخصص</string>
+    <string name="register_now">التسجيل</string>
+    <string name="admin_login">تسجيل دخول</string>
+    <string name="enter_your_email">ادخل البريد الإلكتروني</string>
+    <string name="enter_your_password">ادخل كلمة السر</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="forgetten_password">نسيت كلمة السر</string>
+    <string name="admin_page">صفحة الأدمن</string>
+    <string name="add_notice">إضافة ملاحظة</string>
+    <string name="delete_notice">حذف ملاحظة</string>
+    <string name="add_student">إضافة طالب</string>
+    <string name="add_pdf">إضافة PDF</string>
+    <string name="pdf_title">عنوان PDF</string>
+    <string name="upload_pdf">رفع PDF</string>
+    <string name="notice_title">عنوان الملاحظة</string>
+    <string name="upload_notice">رفع الملاحظة</string>
+</resources>
