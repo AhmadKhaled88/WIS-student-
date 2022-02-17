@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+      android:orientation="vertical">
+
+
+      <ImageView
+          android:id="@+id/imageView2"
+          android:layout_width="wrap_content"
+          android:layout_height="116dp"
+          android:layout_gravity="center"
+          android:src="@drawable/wwiisseeremovebgpreview" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="#055703"
+          android:gravity="right"
+          android:text="تسعى جامعة العلوم الإسلامية العالمية إلى الجمع بين المعرفة والفضيلة المرتكزة على الإيمان والحكمة، بحيث تكون جامعة إسلامية عصرية شاملة ورائدة في منهجيتها وخططها الدراسية لتتميز كواحدة من أرقى الجامعات على المستويات العربية والإقليمية والإسلامية والعالمية.
+
+وتهدف الجامعة إلى تزويد العالمين العربي والإسلامي بمختصين قادرين على إبراز الصورة المشرقة للإسلام والمسلمين في كل ما يتصل بالعقيدة والشريعة والعلوم والفكر والحضارة والفنون والعمارة الإسلامية اسهاما منها في المشروع الحضاري الإسلامي .
+
+"          android:paddingTop="20dp"
+          android:paddingRight="15dp"
+          android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+
+      <com.smarteist.autoimageslider.SliderView
+          android:id="@+id/image_slider"
+          android:layout_width="match_parent"
+          android:layout_height="289dp"
+          android:paddingTop="20dp"
+          app:sliderAnimationDuration="600"
+          app:sliderAutoCycleDirection="back_and_forth"
+          app:sliderAutoCycleEnabled="true"
+          app:sliderIndicatorAnimationDuration="600"
+          app:sliderIndicatorGravity="center_horizontal|bottom"
+          app:sliderIndicatorMargin="15dp"
+          app:sliderIndicatorOrientation="horizontal"
+          app:sliderIndicatorPadding="3dp"
+          app:sliderIndicatorRadius="2dp"
+          app:sliderIndicatorSelectedColor="#5A5A5A"
+          app:sliderIndicatorUnselectedColor="#FFF"
+          app:sliderScrollTimeInSec="2"
+          app:sliderStartAutoCycle="true" />
+
+<LinearLayout
+    android:paddingTop="30dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+
+      <TextView
+          android:layout_width="234dp"
+          android:layout_height="92dp"
+          android:layout_gravity="center"
+          android:gravity="center"
+          android:paddingTop="20dp"
+          android:paddingRight="15dp"
+          android:text="أهم الخدمات التي تقدمها الجامعة للطلبة "
+          android:textAppearance="@style/TextAppearance.AppCompat.Small"
+          android:textColor="#055703" />
+
+      <ImageView
+          android:layout_width="215dp"
+          android:layout_height="92dp"
+          android:background="@drawable/khadamt" />
+</LinearLayout>
+<LinearLayout
+    android:paddingTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+      android:layout_gravity="center"
+      android:gravity="center"
+      android:padding="10dp">
+
+
+      <com.google.android.material.card.MaterialCardView
+          android:layout_width="150dp"
+          android:layout_height="121dp"
+          android:layout_margin="10dp"
+          app:cardElevation="5dp">
+
+            <LinearLayout
+                android:id="@+id/bareed"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                  <de.hdodenhof.circleimageview.CircleImageView
+                      android:layout_width="150dp"
+                      android:layout_height="64dp"
+                      android:src="@drawable/emil" />
+
+                  <View
+                      android:layout_width="match_parent"
+                      android:layout_height="1dp"
+                      android:layout_marginTop="10dp"
+                      android:background="@color/Lightgray" />
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="10dp"
+                      android:fontFamily="@font/aclonica"
+                      android:gravity="center_horizontal"
+                      android:text=" البريد الإلكتروني"
+                      android:textAlignment="center"
+                      android:textColor="#055703"
+                      android:textSize="20dp"
+                      android:textStyle="bold" />
+
+
+            </LinearLayout>
+      </com.google.android.material.card.MaterialCardView>
+
+
+      <com.google.android.material.card.MaterialCardView
+          android:layout_width="150dp"
+          android:layout_height="122dp"
+          android:layout_margin="10dp"
+          app:cardElevation="5dp">
+
+            <LinearLayout
+                android:id="@+id/maktabah"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                  <de.hdodenhof.circleimageview.CircleImageView
+                      android:layout_width="150dp"
+                      android:layout_height="64dp"
+                      android:src="@drawable/elibrary" />
+
+                  <View
+                      android:layout_width="match_parent"
+                      android:layout_height="1dp"
+                      android:layout_marginTop="10dp"
+                      android:background="@color/Lightgray" />
+
+                  <TextView
+                      android:layout_width="68dp"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="10dp"
+                      android:fontFamily="@font/aclonica"
+                      android:gravity="center_horizontal"
+                      android:text="المكتبة"
+                      android:textAlignment="center"
+                      android:textColor="#055703"
+                      android:textSize="20dp"
+                      android:textStyle="bold" />
+
+
+            </LinearLayout>
+      </com.google.android.material.card.MaterialCardView>
+
+
+
+</LinearLayout>
+
+      <LinearLayout
+          android:paddingTop="20dp"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_gravity="center"
+          android:gravity="center"
+          android:orientation="horizontal"
+          android:padding="10dp">
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="150dp"
+                android:layout_height="116dp"
+                android:layout_margin="10dp"
+                app:cardElevation="5dp">
+
+                  <LinearLayout
+                      android:id="@+id/etaaleem"
+                      android:layout_width="150dp"
+                      android:layout_height="wrap_content"
+                      android:gravity="center"
+                      android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="150dp"
+                            android:layout_height="64dp"
+                            android:src="@drawable/elearning" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/Lightgray" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/aclonica"
+                            android:gravity="center_horizontal"
+                            android:text=" التعليم الإلكتروني"
+                            android:textAlignment="center"
+                            android:textColor="#055703"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+
+                  </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+
+                android:layout_width="150dp"
+                android:layout_height="118dp"
+                android:layout_margin="10dp"
+                app:cardElevation="5dp">
+
+                  <LinearLayout
+                      android:id="@+id/gadwalderase"
+                      android:layout_width="150dp"
+                      android:layout_height="wrap_content"
+                      android:gravity="center"
+                      android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="150dp"
+                            android:layout_height="64dp"
+                            android:src="@drawable/gadwalderasy" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/Lightgray" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/aclonica"
+                            android:gravity="center_horizontal"
+                            android:paddingRight="20dp"
+                            android:text="الجدول الدراسي"
+                            android:textAlignment="center"
+                            android:textColor="#055703"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+
+                  </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+      </LinearLayout>
+      <LinearLayout
+          android:paddingTop="20dp"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_gravity="center"
+          android:gravity="center"
+          android:orientation="horizontal"
+          android:padding="10dp">
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="150dp"
+                android:layout_height="116dp"
+                android:layout_margin="10dp"
+                app:cardElevation="5dp">
+
+                  <LinearLayout
+                      android:id="@+id/tasgeelthate"
+                      android:layout_width="150dp"
+                      android:layout_height="wrap_content"
+                      android:gravity="center"
+                      android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="150dp"
+                            android:layout_height="64dp"
+                            android:src="@drawable/regist" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/Lightgray" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/aclonica"
+                            android:gravity="center_horizontal"
+                            android:text=" التسجيل الذاتي"
+                            android:textAlignment="center"
+                            android:textColor="#055703"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+
+                  </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+
+                android:layout_width="150dp"
+                android:layout_height="119dp"
+                android:layout_margin="10dp"
+                app:cardElevation="5dp">
+
+                  <LinearLayout
+                      android:id="@+id/daleel"
+                      android:layout_width="150dp"
+                      android:layout_height="wrap_content"
+                      android:gravity="center"
+                      android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="150dp"
+                            android:layout_height="64dp"
+                            android:src="@drawable/daleel" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/Lightgray" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/aclonica"
+                            android:gravity="center_horizontal"
+                            android:paddingRight="20dp"
+                            android:text="دليل الطالب"
+                            android:textAlignment="center"
+                            android:textColor="#055703"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+
+                  </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+      </LinearLayout>
+      <LinearLayout
+          android:paddingTop="20dp"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_gravity="center"
+          android:gravity="center"
+          android:orientation="horizontal"
+          android:padding="10dp">
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:layout_margin="10dp"
+                app:cardElevation="5dp">
+
+                  <LinearLayout
+                      android:id="@+id/taqyeem"
+                      android:layout_width="150dp"
+                      android:layout_height="wrap_content"
+                      android:gravity="center"
+                      android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="150dp"
+                            android:layout_height="64dp"
+                            android:src="@drawable/starssss" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/Lightgray" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/aclonica"
+                            android:gravity="center_horizontal"
+                            android:text=" تقييم الهيئة التدريسية"
+                            android:textAlignment="center"
+                            android:textColor="#055703"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+
+                  </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+
+                android:layout_width="150dp"
+                android:layout_height="136dp"
+                android:layout_margin="10dp"
+                app:cardElevation="5dp">
+
+                  <LinearLayout
+                      android:id="@+id/anzema"
+                      android:layout_width="150dp"
+                      android:layout_height="wrap_content"
+                      android:gravity="center"
+                      android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="150dp"
+                            android:layout_height="64dp"
+                            android:src="@drawable/instruc" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/Lightgray" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/aclonica"
+                            android:gravity="center_horizontal"
+                            android:paddingRight="20dp"
+                            android:text="الأنظمة والتعليمات"
+                            android:textAlignment="center"
+                            android:textColor="#055703"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+
+                  </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+      </LinearLayout>
+
+
+
+
+      <LinearLayout
+          android:paddingTop="20dp"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_gravity="center"
+          android:gravity="center"
+          android:orientation="horizontal"
+          android:padding="10dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="150dp"
+                android:layout_height="113dp"
+                android:layout_margin="10dp"
+                app:cardElevation="5dp">
+
+                  <LinearLayout
+                      android:id="@+id/khareeg"
+                      android:layout_width="150dp"
+                      android:layout_height="wrap_content"
+                      android:gravity="center"
+                      android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="150dp"
+                            android:layout_height="64dp"
+                            android:src="@drawable/gradua" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/Lightgray" />
+
+                        <TextView
+                            android:layout_width="137dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/aclonica"
+                            android:gravity="center_horizontal"
+                            android:text="بوابة الخريجين"
+                            android:textAlignment="center"
+                            android:textColor="#055703"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+
+                  </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+
+                android:layout_width="150dp"
+                android:layout_height="114dp"
+                android:layout_margin="10dp"
+                app:cardElevation="5dp">
+
+                  <LinearLayout
+                      android:id="@+id/taqweem"
+                      android:layout_width="150dp"
+                      android:layout_height="wrap_content"
+                      android:gravity="center"
+                      android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="150dp"
+                            android:layout_height="64dp"
+                            android:src="@drawable/map" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/Lightgray" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/aclonica"
+                            android:gravity="center_horizontal"
+                            android:paddingRight="20dp"
+                            android:text=" التقويم الجامعي"
+                            android:textAlignment="center"
+                            android:textColor="#055703"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+
+                  </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+      </LinearLayout>
+
+
+      <Button
+          android:layout_marginTop="20dp"
+          android:id="@+id/btnLogOut"
+          android:layout_width="131dp"
+          android:layout_height="58dp"
+          android:layout_gravity="center"
+          android:gravity="center"
+          android:text="LOGOUT"
+          android:textSize="10dp"
+          app:backgroundTint="#055703" />
+
+</LinearLayout>
+      </ScrollView>

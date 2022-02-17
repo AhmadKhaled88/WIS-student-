@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".stdcourcetable">
+
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="28dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="مدرس المادة"
+            android:textColor="#055703"/>
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="إسم المادة"
+            android:textColor="#055703"/>
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="رقم المادة"
+            android:textColor="#055703"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="28dp" />
+
+        <TextView
+            android:paddingRight="50dp"
+            android:id="@+id/subjects1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#055703" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="28dp" />
+
+        <TextView
+            android:paddingRight="50dp"
+            android:id="@+id/subjects2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#055703"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="28dp" />
+
+        <TextView
+            android:paddingRight="50dp"
+            android:id="@+id/subjects3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#055703"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="28dp" />
+
+        <TextView
+            android:paddingRight="50dp"
+            android:id="@+id/subjects4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#055703"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="28dp" />
+
+        <TextView
+            android:paddingRight="50dp"
+            android:id="@+id/subjects5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="28dp" />
+
+        <TextView
+            android:paddingRight="50dp"
+            android:id="@+id/subjects6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#055703"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="28dp" />
+
+        <TextView
+            android:paddingRight="50dp"
+            android:id="@+id/subjects7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#055703"/>
+
+    </LinearLayout>
+</LinearLayout>

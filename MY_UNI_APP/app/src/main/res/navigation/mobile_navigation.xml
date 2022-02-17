@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_Home">
+
+    <fragment
+        android:id="@+id/nav_Home"
+        android:name="com.example.my_uni_app.Home"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home2" />
+
+
+    <fragment
+        android:id="@+id/nav_colleges"
+        android:name="com.example.my_uni_app.Colleges"
+        android:label="Colleges"
+        tools:layout="@layout/fragment_colleges" />
+
+    <fragment
+        android:id="@+id/nav_studentpage"
+        android:name="com.example.my_uni_app.StudentPage"
+        android:label="StudentPage"
+        tools:layout="@layout/fragment_student_page" />
+
+    <fragment
+        android:id="@+id/nav_wiseimages"
+        android:name="com.example.my_uni_app.WISEImage"
+        android:label="WISE Images"
+        tools:layout="@layout/fragment_w_i_s_e_image" />
+
+    <fragment
+        android:id="@+id/nav_theme"
+        android:name="com.example.my_uni_app.THEME"
+        android:label="THEME"
+        tools:layout="@layout/fragment_t_h_e_m_e" />
+
+    <fragment
+        android:id="@+id/nav_aboutus"
+        android:name="com.example.my_uni_app.ABOUTUS"
+        android:label="AboutUs"
+        tools:layout="@layout/fragment_a_b_o_u_t_u_s" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.my_uni_app.LOGOUT"
+        android:label="LOGOUT"
+        tools:layout="@layout/fragment_l_o_g_o_u_t" />
+
+
+</navigation>

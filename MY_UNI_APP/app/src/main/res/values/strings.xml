@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MY_UNI_APP</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="css">
+        <a href="https://www.wise.edu.jo/sites/default/files/6474.pdf">شجرة المواد</a>
+
+    </string>
+    <string name="cn">
+        <a href="https://www.wise.edu.jo/sites/default/files/395.pdf">الخطة الدراسية</a>
+    </string>
+    <string name="se">
+        <a href="https://drive.google.com/file/d/19VgEDz6X3vVwWOaI2f5KxBgnoMZ_U6R2/view?usp=sharing">الخطة الدراسية</a>
+    </string>
+
+</resources>

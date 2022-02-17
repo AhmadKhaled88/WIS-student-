@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/aboud/AndroidStudioProjects/MY_UNI_APP/MY_UNI_APP/app/src/main/res/layout/activity_bf.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/aboud/AndroidStudioProjects/MY_UNI_APP/MY_UNI_APP/app/src/main/res/layout/activity_cn.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/aboud/AndroidStudioProjects/MY_UNI_APP/MY_UNI_APP/app/src/main/res/layout/activity_cs.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/aboud/AndroidStudioProjects/MY_UNI_APP/MY_UNI_APP/app/src/main/res/layout/activity_it.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/aboud/AndroidStudioProjects/MY_UNI_APP/MY_UNI_APP/app/src/main/res/layout/activity_se.xml" value="0.1" />
+        <entry key="..\:/Users/aboud/AndroidStudioProjects/MY_UNI_APP/MY_UNI_APP/app/src/main/res/layout/fragment_colleges.xml" value="0.13405797101449277" />
+        <entry key="..\:/Users/aboud/AndroidStudioProjects/MY_UNI_APP/MY_UNI_APP/app/src/main/res/layout/fragment_gallery.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/aboud/AndroidStudioProjects/MY_UNI_APP/MY_UNI_APP/app/src/main/res/layout/list_view_cs.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/aboud/AndroidStudioProjects/MY_UNI_APP/MY_UNI_APP/app/src/main/res/menu/activity_main_drawer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/aboud/AndroidStudioProjects/MY_UNI_APP/app/src/main/res/layout/activity_cs.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/aboud/AndroidStudioProjects/MY_UNI_APP/app/src/main/res/layout/activity_it.xml" value="0.2" />
+        <entry key="..\:/Users/aboud/AndroidStudioProjects/MY_UNI_APP/app/src/main/res/layout/activity_login_page.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/aboud/AndroidStudioProjects/MY_UNI_APP/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/aboud/AndroidStudioProjects/MY_UNI_APP/app/src/main/res/layout/app_bar_main.xml" value="0.2" />
+        <entry key="..\:/Users/aboud/AndroidStudioProjects/MY_UNI_APP/app/src/main/res/layout/content_main.xml" value="0.2" />
+        <entry key="..\:/Users/aboud/AndroidStudioProjects/MY_UNI_APP/app/src/main/res/layout/fragment_a_b_o_u_t_u_s.xml" value="0.2" />
+        <entry key="..\:/Users/aboud/AndroidStudioProjects/MY_UNI_APP/app/src/main/res/layout/fragment_colleges.xml" value="0.22" />
+        <entry key="..\:/Users/aboud/AndroidStudioProjects/MY_UNI_APP/app/src/main/res/layout/fragment_gallery.xml" value="0.2" />
+        <entry key="..\:/Users/aboud/AndroidStudioProjects/MY_UNI_APP/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/aboud/AndroidStudioProjects/MY_UNI_APP/app/src/main/res/layout/fragment_w_i_s_e_image.xml" value="0.2" />
+        <entry key="..\:/Users/aboud/AndroidStudioProjects/MY_UNI_APP/app/src/main/res/menu/activity_main_drawer.xml" value="0.2" />
+        <entry key="..\:/Users/aboud/AndroidStudioProjects/MY_UNI_APP/app/src/main/res/menu/main.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

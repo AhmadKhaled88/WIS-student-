@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".stdtable"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="30dp"
+            android:paddingRight="15dp"
+            android:text="* ملاحظة : عند الضغط على تثبيت الجدول ؛ سوف يحفظ الجدول الخاص بك في صفحة جدول الطالب في الصفحة السابقة ."
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#055703" />
+
+        <TextView
+            android:paddingTop="30dp"
+            android:paddingRight="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#055703"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:text="* ملاحظة : إذا أردت أن تحذف مادة و تضيف مادة أخرى يجب عليك إعادة إختيار الجدول كاملا مع العلم أن جدولك السابق سوف يحذف و يضاف الجدول الجديد فقط . " />
+
+
+        <LinearLayout
+            android:layout_width="414dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="144dp"
+                android:layout_height="85dp"
+                android:gravity="center"
+                android:paddingTop="50dp"
+                android:text="رقم المادة"
+                android:textColor="#055703" />
+
+            <TextView
+                android:textColor="#055703"
+                android:layout_width="120dp"
+                android:layout_height="85dp"
+                android:gravity="center"
+                android:paddingLeft="50dp"
+                android:paddingTop="50dp"
+                android:text="إسم المادة" />
+
+            <TextView
+                android:textColor="#055703"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="50dp"
+                android:paddingTop="50dp"
+                android:text="مدرس المادة" />
+
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/check1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="50dp"
+            android:text="   صفاء خالد الصرايرة                      مهارات الحاسوب             0602095	 	"/>
+        <CheckBox
+            android:id="@+id/check2"
+            android:paddingTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  صلاح شامان الغيالين
+                 أساسيات البرمجة	             0602110	 	"
+            />
+
+
+        <CheckBox
+            android:id="@+id/check3"
+            android:paddingTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   رجاء محمد المساعدة               تصميم المنطق الرقمي	             0602120	 	"
+            />
+
+        <CheckBox
+            android:id="@+id/check4"
+            android:paddingTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   احمد عادل ابو شريحة
+       البرمجة الموجهة للكيانات	            0602211	 	"
+            />
+
+        <CheckBox
+            android:id="@+id/check5"
+            android:paddingTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   نضال كامل العمري
+                 الرياضيات المتقطعة	             0602220		 	"
+            />
+
+        <CheckBox
+            android:id="@+id/check6"
+            android:paddingTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   صلاح شامان الغيالين
+                 الخوارزميات                   0602302	 	"
+            />
+
+
+        <CheckBox
+            android:id="@+id/check7"
+            android:paddingTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   عمر محمد المومني
+                   شبكات الحاسوب	             0603340		 	"
+            />
+
+
+
+
+        <com.google.android.material.button.MaterialButton
+            android:textColor="#FFFFFF"
+            app:backgroundTint="#055703"
+            app:cornerRadius="@dimen/fab_margin"
+            android:id="@+id/select_item"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="تثبيت الجدول"/>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:textColor="#FFFFFF"
+            app:backgroundTint="#055703"
+            app:cornerRadius="@dimen/fab_margin"
+            android:id="@+id/dropButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="حذف الجدول "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text=""/>
+
+
+
+
+    </LinearLayout>
+
+
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".stdinfo"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:hapticFeedbackEnabled="false"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="742dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="180dp"
+                    android:layout_height="254dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/student" />
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="46dp"
+                        android:layout_height="43dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/nnn" />
+
+                    <TextView
+
+                        android:id="@+id/Name_user"
+                        android:layout_width="287dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                        android:textColor="#055703"
+                        android:textColorHint="@color/purple_200" />
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="46dp"
+                        android:layout_height="43dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/name_std" />
+
+                    <TextView
+                        android:id="@+id/ID_user"
+                        android:layout_width="291dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                        android:textColor="#055703" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="46dp"
+                        android:layout_height="43dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/emil" />
+
+                    <TextView
+                        android:id="@+id/Email_user"
+                        android:layout_width="293dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                        android:textColor="#055703" />
+
+
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="46dp"
+                        android:layout_height="43dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/major" />
+
+                    <TextView
+                        android:id="@+id/major_user"
+                        android:layout_width="293dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                        android:textColor="#055703" />
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
+

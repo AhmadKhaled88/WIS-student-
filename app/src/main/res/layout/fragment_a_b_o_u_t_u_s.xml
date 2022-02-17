@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ABOUTUS">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+
+        <LinearLayout
+            android:paddingTop="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/aboud"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/aboud"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/aboudname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ABDELRAHEEM ISSA"
+                    android:fontFamily="@font/aclonica"
+                    android:layout_marginBottom="5dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="#055703"/>
+
+                <TextView
+                    android:id="@+id/aboudemail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="aboudissa8@gmail.com"
+                    android:fontFamily="@font/aclonica"
+                    android:layout_marginBottom="5dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/aboudnum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/aclonica"
+                    android:text="+962788883335"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="#055703"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+        <LinearLayout
+            android:paddingTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ayman"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ayman"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/aymanname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="AYMAN SUFIAN"
+                    android:fontFamily="@font/aclonica"
+                    android:layout_marginBottom="5dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="#055703"/>
+
+                <TextView
+                    android:id="@+id/aymanemail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" ayman.sufian88@gmail.com"
+                    android:fontFamily="@font/aclonica"
+                    android:layout_marginBottom="5dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/aymannum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/aclonica"
+                    android:text="+962797608343"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="#055703"/>
+            </LinearLayout>
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <LinearLayout
+            android:paddingTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ahmad"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ahmad"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/ahmadname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="AHMAD KHALED"
+                    android:fontFamily="@font/aclonica"
+                    android:layout_marginBottom="5dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="#055703"/>
+
+                <TextView
+                    android:id="@+id/ahmademail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ahmad.khaled87@yahoo.com "
+                    android:fontFamily="@font/aclonica"
+                    android:layout_marginBottom="5dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/ahmadnum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/aclonica"
+                    android:text="+962782916203"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="#055703"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".se"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/cardse"
+            app:cardElevation="20dp">
+
+            <TextView
+                android:layout_width="302dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text=" هندسة البرمجيات"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#055703" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/cardse2"
+            app:cardElevation="20dp"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/ses"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:text="@string/se"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#055703"
+                android:padding="10dp"/>
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/cardse3"
+            app:cardElevation="20dp"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الهيئة التدريسية"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#055703"
+                style="@style/TextAppearance.AppCompat.Display1"
+                android:padding="10dp"/>
+
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <GridView
+            android:id="@+id/doclistse"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numColumns="2"/>
+    </LinearLayout>
+</LinearLayout>

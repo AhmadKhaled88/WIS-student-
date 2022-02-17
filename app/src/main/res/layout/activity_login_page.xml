@@ -2,12 +2,8 @@
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".LoginPage">
-
-
+    android:layout_height="match_parent">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -17,23 +13,14 @@
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="424dp"
-            android:layout_height="149dp"
+            android:layout_height="110dp"
             android:layout_gravity="center"
             android:layout_marginTop="5dp"
             android:src="@drawable/wwiisseeremovebgpreview" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/admin_login"
-            android:textColor="#055703"
-            android:textSize="40dp"
-            android:layout_gravity="center"
-            android:gravity="center"/>
-
         <LinearLayout
             android:layout_width="393dp"
-            android:layout_height="419dp"
+            android:layout_height="398dp"
             android:layout_gravity="center"
             android:layout_marginTop="25dp"
             android:orientation="vertical">
@@ -60,7 +47,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:hint="@string/enter_your_email"
+                    android:hint="Enter your Email                 "
                     android:inputType="textEmailAddress"
                     android:lines="1" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -79,7 +66,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:hint="@string/enter_your_password"
+                    android:hint="Enter your Password"
                     android:inputType="textPassword"
                     android:lines="1" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -92,9 +79,10 @@
                 android:layout_marginTop="15dp"
                 android:fontFamily="sans-serif-smallcaps"
                 android:gravity="center"
-                android:text="@string/login"
+                android:text="Login"
                 android:textColor="#FFFFFF"
-                app:backgroundTint="#055703"/>
+                app:backgroundTint="#055703"
+                app:cornerRadius="@dimen/fab_margin" />
 
             <LinearLayout
                 android:layout_width="270dp"
@@ -110,7 +98,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="8dp"
-                    android:text="@string/forgetten_password"
+                    android:text="Forgetten Password ?"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
                     android:textColor="#055703"
                     android:textSize="20sp"
@@ -118,8 +106,41 @@
 
             </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:id="@+id/Register"
+                    android:layout_width="319dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:onClick="Register"
+                    android:text="Create Account ?"
+                    android:textColor="#055703"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <TextView
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/academic_advisor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="academic advisor"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#114C4E"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
         </LinearLayout>
     </LinearLayout>
-
 
 </ScrollView>

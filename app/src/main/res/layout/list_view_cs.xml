@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/carddoc"
+        app:cardElevation="5dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/imgcs"
+                android:padding="15dp"
+                android:src="@drawable/aboud"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/Lightgray"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:id="@+id/docName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="الأسم"
+                android:textColor="#055703"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:id="@+id/docRank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="الرتية"
+                android:textColor="#055703"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"/>
+
+
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>
